@@ -1,0 +1,38 @@
+.options {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.option {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(250, 250, 250);
+  border: 2px solid #e1e1e1;
+}
+
+input {
+  border-style: none;
+  border-bottom-color: white;
+  color: #828282;
+  font-family: 'Montserrat', sans-serif;
+  height: 28px;
+  width: 50%;
+  border-radius: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.matchpint.co.uk/static/img/MP_Website_Banners_Stripe4.jpg');
+}

@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 217, 3);
+  font-family: 'ProximaNova', sans-serif;
+}

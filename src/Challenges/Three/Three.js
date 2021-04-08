@@ -39,9 +39,9 @@ function Three() {
         resolved. The callback that we pass to <code>.catch()</code> will run
         once the synchronous code has finished running, there's nothing in the
         call stack and the promise is rejected. the callback that we pass to
-        .finally() will run once the synchronous code has finished running,
-        there's nothing in the call stack and the promise is resolved or
-        rejected. It is very visual because these properties can be chained.
+        <code>.finally()</code> will run once the synchronous code has finished
+        running, there's nothing in the call stack and the promise is resolved
+        or rejected. It is very visual because these properties can be chained.
       </p>
       <SyntaxHighlighter
         language='javascript'

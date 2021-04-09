@@ -28,20 +28,19 @@ function Three() {
         The object will have methods such as <code>.then()</code>, which we can
         use to tell JS what to do once the promise is successful, or{' '}
         <code>.catch()</code>, to tell JS what to do if the promise is
-        unsuccessful. Once resolved or rejected, the code in the{' '}
+        unsuccessful. Once resolved or rejected, the callbacks in the{' '}
         <code>.then or .catch()</code> will be placed in the microtask queue and
         run once the event loop detects that there is nothing in the call stack.
         <br />
         <br />
         The syntax for promises is quite visual and clear: the callback that we
-        pass to <code>.then()</code> will run once the synchronous code has
-        finished running, there's nothing in the call stack and the promise is
-        resolved. The callback that we pass to <code>.catch()</code> will run
-        once the synchronous code has finished running, there's nothing in the
-        call stack and the promise is rejected. the callback that we pass to
-        <code>.finally()</code> will run once the synchronous code has finished
-        running, there's nothing in the call stack and the promise is resolved
-        or rejected. It is very visual because these properties can be chained.
+        pass to <code>.then()</code> will run once there's nothing in the call
+        stack and the promise is resolved. The callback that we pass to{' '}
+        <code>.catch()</code> will run once there's nothing in the call stack
+        and the promise is rejected. the callback that we pass to
+        <code>.finally()</code> will run once there's nothing in the call stack
+        and the promise is resolved or rejected. It is very visual because these
+        properties can be chained.
       </p>
       <SyntaxHighlighter
         language='javascript'
